@@ -1,0 +1,5 @@
+target/
+lib/
+*-local.yaml
+.vscode/
+*.sh
