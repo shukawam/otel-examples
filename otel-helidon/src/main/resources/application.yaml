@@ -6,10 +6,8 @@ metrics:
   rest-request:
     enabled: false
 
-otel:
-  # enabled MicroProfile Telemetry
-  sdk:
-    disabled: true
-  # use o-tel agent
-  agent:
-    present: true
+# otel:
+#   sdk:
+#     disabled: true
+#   agent:
+#     present: true
