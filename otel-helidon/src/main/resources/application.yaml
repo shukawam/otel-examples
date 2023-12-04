@@ -6,8 +6,6 @@ metrics:
   rest-request:
     enabled: false
 
-# otel:
-#   sdk:
-#     disabled: true
-#   agent:
-#     present: true
+otel:
+  sdk:
+    disabled: false
