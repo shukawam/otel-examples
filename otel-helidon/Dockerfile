@@ -11,7 +11,7 @@ WORKDIR /var/cache
 RUN wget https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases/download/v1.32.0/opentelemetry-javaagent.jar
 RUN echo "done! - download stage"
 
-FROM eclipse-temurin:21-jre
+FROM eclipse-temurin:21.0.2_13-jre
 WORKDIR /helidon
 COPY --from=build /helidon/target/otel-helidon.jar ./
 COPY --from=build /helidon/target/libs ./libs
